@@ -42,8 +42,8 @@ namespace ExeAula122.Entities
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(Title);
             sb.Append(Likes);
-            sb.Append("Likes - ");
-            sb.AppendLine(Moment.ToString("dd/mm/yyyy hh:mm:ss"));
+            sb.Append(" Likes - ");
+            sb.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
             sb.AppendLine(Content);
             sb.AppendLine("Comments:");
             foreach (Comment comment in Comments)
