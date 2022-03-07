@@ -15,7 +15,7 @@ namespace ExeAula208.Entities
 
         public override string ToString()
         {
-            return DueDate.ToString("F2")
+            return DueDate.ToString("dd/MM/yyyy")
                 + " - "
                 + Amount.ToString("F2");
         }
