@@ -5,7 +5,7 @@ using ExeAula208.Services;
 
 namespace ExeAula208
 {
-    class Program
+    class ExeAula208
     {
         static void Main(string[] args)
         {
