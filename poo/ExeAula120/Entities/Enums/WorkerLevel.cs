@@ -1,4 +1,4 @@
-﻿namespace ExeAula120.Entities.Enums
+﻿namespace ExeAula128.Entities.Enums
 {
     enum WorkerLevel : int
     {

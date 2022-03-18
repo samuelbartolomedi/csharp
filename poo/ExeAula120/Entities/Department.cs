@@ -1,4 +1,4 @@
-﻿namespace ExeAula120.Entities
+﻿namespace ExeAula128.Entities
 {
     class Department
     {
@@ -6,7 +6,6 @@
 
         public Department()
         {
-
         }
 
         public Department(string name)

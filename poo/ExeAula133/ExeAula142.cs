@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using ExeAula133.Entities;
+using ExeAula142.Entities;
 
-namespace ExeAula133
+namespace ExeAula142
 {
     class ExeAula142
     {

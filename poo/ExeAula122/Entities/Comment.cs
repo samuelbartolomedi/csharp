@@ -1,4 +1,4 @@
-﻿namespace ExeAula122.Entities
+﻿namespace ExeAula131.Entities
 {
     class Comment
     {

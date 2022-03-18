@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExeAula137.Entities
+﻿namespace ExeAula137.Entities
 {
     abstract class TaxPayer
     {
@@ -15,7 +9,7 @@ namespace ExeAula137.Entities
         {
         }
 
-        protected TaxPayer(string name, double anualIncome)
+        protected TaxPayer(string name, double anualIncome) //só pode ser acessado por sua classe e instâncias de classes derivadas
         {
             Name = name;
             AnualIncome = anualIncome;

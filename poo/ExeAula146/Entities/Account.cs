@@ -1,6 +1,6 @@
-﻿using ExeAula146.Entities.Exceptions;
+﻿using ExeAula155.Entities.Exceptions;
 
-namespace ExeAula146.Entities
+namespace ExeAula155.Entities
 {
     class Account
     {

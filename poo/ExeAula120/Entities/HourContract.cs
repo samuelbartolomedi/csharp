@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExeAula120.Entities
+namespace ExeAula128.Entities
 {
     class HourContract
     {

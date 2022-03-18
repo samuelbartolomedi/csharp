@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ExeAula123.Entities
+namespace ExeAula132.Entities
 {
     class Client
     {

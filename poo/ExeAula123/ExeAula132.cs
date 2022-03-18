@@ -1,8 +1,8 @@
 ﻿using System;
-using ExeAula123.Entities;
-using ExeAula123.Entities.Enums;
+using ExeAula132.Entities;
+using ExeAula132.Entities.Enums;
 
-namespace ExeAula123
+namespace ExeAula132
 {
     class ExeAula132
     {

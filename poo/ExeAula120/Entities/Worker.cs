@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using ExeAula120.Entities.Enums;
+using ExeAula128.Entities.Enums;
 
-namespace ExeAula120.Entities
+namespace ExeAula128.Entities
 {
     class Worker
     {

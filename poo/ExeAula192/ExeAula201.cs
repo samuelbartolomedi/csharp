@@ -1,27 +1,27 @@
 ﻿using System;
 using System.IO;
-using ExeAula192.Entities;
+using ExeAula201.Entities;
 
-namespace ExeAula192
+namespace ExeAula201
 {
     class ExeAula201
     {
         static void Main(string[] args)
         {
             Console.Write("Enter file full path: ");
-            string sourceFilePath = Console.ReadLine();
+            string sourceFilePath = Console.ReadLine(); //lê o caminho do arquivo com os dados
 
             try
             {
                 string[] lines = File.ReadAllLines(sourceFilePath);
 
                 string sourceFolderPath = Path.GetDirectoryName(sourceFilePath);
-                string targetFolderPath = sourceFolderPath + @"\out";
-                string targetFilePath = targetFolderPath + @"\summary.csv";
+                string targetFolderPath = sourceFolderPath + @"\out"; //diretório de destino
+                string targetFilePath = targetFolderPath + @"\summary.csv"; //nome do arquivo que será criado
 
                 Directory.CreateDirectory(targetFolderPath);
 
-                using (StreamWriter sw = File.AppendText(targetFilePath))
+                using (StreamWriter sw = File.AppendText(targetFilePath)) //adiciona o texto ao arquivo
                 {
                     foreach (string line in lines)
                     {

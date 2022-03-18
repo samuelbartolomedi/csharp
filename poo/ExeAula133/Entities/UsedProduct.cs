@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ExeAula133.Entities
+namespace ExeAula142.Entities
 {
     class UsedProduct : Product
     {

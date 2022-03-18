@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using ExeAula123.Entities.Enums;
+using ExeAula132.Entities.Enums;
 
-namespace ExeAula123.Entities
+namespace ExeAula132.Entities
 {
     class Order
     {
@@ -48,7 +46,7 @@ namespace ExeAula123.Entities
 
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder(); //instancia classe stringbuilder e adiciona as variaveis
             sb.AppendLine("Order moment: " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
             sb.AppendLine("Order status: " + Status);
             sb.AppendLine("Client :" + Client);

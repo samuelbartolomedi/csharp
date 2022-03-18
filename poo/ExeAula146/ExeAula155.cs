@@ -1,8 +1,8 @@
 ﻿using System;
-using ExeAula146.Entities;
-using ExeAula146.Entities.Exceptions;
+using ExeAula155.Entities;
+using ExeAula155.Entities.Exceptions;
 
-namespace ExeAula146
+namespace ExeAula155
 {
     class ExeAula155
     {
@@ -23,12 +23,12 @@ namespace ExeAula146
             Console.WriteLine();
             Console.Write("Enter amount to withdraw: ");
             double amount = double.Parse(Console.ReadLine());
-            try
+            try //tenta realizar as operações do método WithDraw
             {
                 account.Withdraw(amount);
                 Console.WriteLine("New balance: " + account.Balance.ToString("F2"));
             }
-            catch (DomainException e)
+            catch (DomainException e) //captura a exceção se o bloco try falha
             {
                 Console.WriteLine("Can't complete withdraw: " + e.Message);
             }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExeAula137.Entities
+﻿namespace ExeAula137.Entities
 {
     class Individual : TaxPayer
     {

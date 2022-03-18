@@ -1,4 +1,4 @@
-﻿namespace ExeAula192.Entities
+﻿namespace ExeAula201.Entities
 {
     class Product
     {

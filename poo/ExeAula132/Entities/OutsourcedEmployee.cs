@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ExeAula132.Entities;
-
-namespace ExeAula132.Entities
+﻿namespace ExeAula140.Entities
 {
-    class OutsourcedEmployee : Employee
+    class OutsourcedEmployee : Employee //classe OutSourcedEmployee herda caracteristicas da classe Employee
     {
         public double AdditionalCharge { get; set; }
 
@@ -15,7 +8,7 @@ namespace ExeAula132.Entities
         {
         }
 
-        public OutsourcedEmployee(string name, int hours, double valuePerHour, double additionalCharge) : base(name, hours, valuePerHour)
+        public OutsourcedEmployee(string name, int hours, double valuePerHour, double additionalCharge) : base(name, hours, valuePerHour) //base acessa os membros da classe herdada
         {
             AdditionalCharge = additionalCharge;
         }

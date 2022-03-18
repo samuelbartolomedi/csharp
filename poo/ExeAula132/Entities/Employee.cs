@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExeAula132.Entities
+﻿namespace ExeAula140.Entities
 {
     class Employee
     {
@@ -23,7 +17,7 @@ namespace ExeAula132.Entities
             ValuePerHour = valuePerHour;
         }
 
-        public virtual double Payment()
+        public virtual double Payment() // virtual permite que seja sobreescrito na classe OutsourcedEmployee
         {
             return Hours * ValuePerHour;
         }

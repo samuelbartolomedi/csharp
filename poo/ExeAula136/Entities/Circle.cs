@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ExeAula136.Entities.Enums;
+using ExeAula145.Entities.Enums;
 
-namespace ExeAula136.Entities
+namespace ExeAula145.Entities
 {
     class Circle : Shape
     {

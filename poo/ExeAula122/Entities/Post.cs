@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExeAula122.Entities
+namespace ExeAula131.Entities
 {
     class Post
     {
@@ -36,7 +36,7 @@ namespace ExeAula122.Entities
 
         public override string ToString()
         {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder(); //instancia a classe string builder e adiciona as variaveis
             sb.AppendLine(Title);
             sb.Append(Likes);
             sb.Append(" Likes - ");

@@ -1,7 +1,7 @@
 ﻿using System;
-using ExeAula122.Entities;
+using ExeAula131.Entities;
 
-namespace ExeAula122
+namespace ExeAula131
 {
     class ExeAula131
     {
