@@ -6,12 +6,12 @@ namespace ExeAula81
     {
         static void Main(string[] args)
         {
-            string[] linhas = Console.ReadLine().Split(' ');
+            string[] linhas = Console.ReadLine().Split(' '); //cria vetor
 
             int m = int.Parse(linhas[0]);
             int n = int.Parse(linhas[1]);
 
-            int[,] matriz = new int[m, n];
+            int[,] matriz = new int[m, n]; //cria matriz m por n
 
             for (int i = 0; i < m; i++)
             {

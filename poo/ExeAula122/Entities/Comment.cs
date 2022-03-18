@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExeAula122.Entities
+﻿namespace ExeAula122.Entities
 {
     class Comment
     {
@@ -12,7 +6,6 @@ namespace ExeAula122.Entities
 
         public Comment()
         {
-
         }
 
         public Comment(string text)

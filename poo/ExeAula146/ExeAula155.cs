@@ -4,7 +4,7 @@ using ExeAula146.Entities.Exceptions;
 
 namespace ExeAula146
 {
-    class ExeAula146
+    class ExeAula155
     {
         static void Main(string[] args)
         {

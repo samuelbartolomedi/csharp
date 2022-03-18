@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ExeAula120.Entities
+﻿namespace ExeAula120.Entities
 {
     class Department
     {

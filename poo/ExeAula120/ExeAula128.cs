@@ -4,7 +4,7 @@ using ExeAula120.Entities;
 
 namespace ExeAula120
 {
-    class ExeAula120
+    class ExeAula128
     {
         static void Main(string[] args)
         {
@@ -18,8 +18,8 @@ namespace ExeAula120
             Console.Write("Base salary? ");
             double baseSalary = double.Parse(Console.ReadLine());
 
-            Department dept = new Department(deptName);
-            Worker worker = new Worker(name, level, baseSalary, dept);
+            Department dept = new Department(deptName); //instancia classe department
+            Worker worker = new Worker(name, level, baseSalary, dept); //instancia classe worker com os parametros dos inputs
 
             Console.Write("How many contracts to this worker? ");
             int n = int.Parse(Console.ReadLine());
@@ -33,7 +33,7 @@ namespace ExeAula120
                 double valuePerHour = double.Parse(Console.ReadLine());
                 Console.Write("Duration? (hours) ");
                 int duration = int.Parse(Console.ReadLine());
-                HourContract contract = new HourContract(date, valuePerHour, duration);
+                HourContract contract = new HourContract(date, valuePerHour, duration); //instancia classe contract com os parametros do input
                 worker.AddContract(contract);
             }
 

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace ExeAula122.Entities
 {
@@ -16,7 +14,6 @@ namespace ExeAula122.Entities
 
         public Post()
         {
-
         }
 
         public Post(DateTime moment, string title, string content, int likes)

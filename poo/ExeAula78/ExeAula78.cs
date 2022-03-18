@@ -28,7 +28,7 @@ namespace ExeAula78
             Console.Write("Inform the employee id that will have salary increase : ");
             int searchId = int.Parse(Console.ReadLine());
 
-            Employee e1 = employeesList.Find(x => x.Id == searchId);
+            Employee e1 = employeesList.Find(x => x.Id == searchId); //expressao lambda
             if(e1 != null)
             {
                 Console.Write("Inform the percentage: ");
