@@ -1,5 +1,6 @@
 ﻿using System;
 using tabuleiro;
+using xadrez;
 
 namespace xadrez_console
 {
@@ -7,10 +8,30 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            Tabuleiro tab = new Tabuleiro(8, 8);
+            try
+            {
+                PartidaDeXadrez partida = new PartidaDeXadrez();
 
-            Tela.imprimirTabuleiro(tab);
+                while (!partida.terminada)
+                {
+                    Console.Clear();
+                    Tela.imprimirTabuleiro(partida.tab);
 
+                    Console.Write("Informe posição de origem: ");
+                    Posicao origem = Tela.lerposicaoXadrez().toPosicao();
+
+                    Console.Write("Informe posição de destino: ");
+                    Posicao destino = Tela.lerposicaoXadrez().toPosicao();
+
+                    partida.executaMovimento(origem, destino);
+
+                }
+            }
+
+            catch (TabuleiroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }
