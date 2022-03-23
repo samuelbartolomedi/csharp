@@ -2,7 +2,7 @@
 
 namespace tabuleiro
 {
-    class Peca
+    abstract class Peca
     {
         public Posicao posicao { get; set; }
         public Cor cor { get; protected set; } //encapsulamento
@@ -21,5 +21,27 @@ namespace tabuleiro
         {
             qtdMovimentos++;
         }
+
+        public bool existeMovimentosPossiveis()
+        {
+            bool[,] matriz = movimentosPossiveis();
+            for (int i = 0; i < tab.linhas; i++)
+            {
+                for (int j = 0; j < tab.colunas; j++)
+                {
+                    if (matriz[i, j])
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+        public bool movimentoPossivel(Posicao pos)
+        {
+            return movimentosPossiveis()[pos.linha, pos.coluna];
+        }
+
+        public abstract bool[,] movimentosPossiveis();
     }
 }

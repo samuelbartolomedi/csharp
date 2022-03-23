@@ -14,20 +14,39 @@ namespace xadrez_console
 
                 while (!partida.terminada)
                 {
-                    Console.Clear();
-                    Tela.imprimirTabuleiro(partida.tab);
+                    try
+                    {
+                        Console.Clear();
+                        Tela.imprimirTabuleiro(partida.tab);
+                        Console.WriteLine();
+                        Console.WriteLine("Turno: " + partida.turno);
+                        Console.WriteLine("Aguardando jogada: " + partida.jogadorAtual);
 
-                    Console.Write("Informe posição de origem: ");
-                    Posicao origem = Tela.lerposicaoXadrez().toPosicao();
+                        Console.WriteLine();
+                        Console.Write("Informe posição de origem: ");
+                        Posicao origem = Tela.lerposicaoXadrez().toPosicao();
+                        partida.validarPosicaoDeOrigem(origem);
 
-                    Console.Write("Informe posição de destino: ");
-                    Posicao destino = Tela.lerposicaoXadrez().toPosicao();
+                        bool[,] posicoesPossiveis = partida.tab.peca(origem).movimentosPossiveis();
 
-                    partida.executaMovimento(origem, destino);
+                        Console.Clear();
+                        Tela.imprimirTabuleiro(partida.tab, posicoesPossiveis); 
 
+                        Console.Write("Informe posição de destino: ");
+                        Posicao destino = Tela.lerposicaoXadrez().toPosicao();
+                        partida.validarPosicaoDeDestino(origem, destino);
+
+                        partida.realizaJogada(origem, destino);
+
+                    }
+
+                    catch (TabuleiroException e)
+                    {
+                        Console.WriteLine(e.Message);
+                        Console.ReadLine();
+                    }
                 }
             }
-
             catch (TabuleiroException e)
             {
                 Console.WriteLine(e.Message);
