@@ -19,7 +19,7 @@ namespace SalesWebMvc.Data
                 _context.Seller.Any() ||
                 _context.SalesRecord.Any())
             {
-                return;
+                return; //quebra o if se o db foi seeded
             }
 
             Department d1 = new Department(1, "Computers");
