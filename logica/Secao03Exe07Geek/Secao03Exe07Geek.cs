@@ -7,6 +7,7 @@ namespace Secao03Exe07Geek
         static void Main(string[] args)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Console.WriteLine("Informe a altura do individuo");
             double Altura = double.Parse(Console.ReadLine());
 
@@ -19,6 +20,13 @@ namespace Secao03Exe07Geek
             double PesoIdeal = (72.7 * Altura) - 58;
             Console.WriteLine($"o peso ideal do individuo é: {PesoIdeal}");
 >>>>>>> 3853fce (exercicios geek university)
+=======
+            Console.WriteLine("Informe a altura do individuo");
+            double Altura = double.Parse(Console.ReadLine());
+
+            double PesoIdeal = (72.7 * Altura) - 58;
+            Console.WriteLine($"O peso ideal do individuo é: {PesoIdeal}");
+>>>>>>> b328e5e (exercicios geek university)
         }
     }
 }
