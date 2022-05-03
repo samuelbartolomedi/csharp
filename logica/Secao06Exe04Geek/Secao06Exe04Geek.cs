@@ -27,10 +27,14 @@ namespace Secao06Exe04Geek
             else
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Console.WriteLine("Vc informou um sexo que não está cadastrado, por favor verifique!");
 =======
                 Console.WriteLine("Vc informou um sexo que não está cadastrado, por favor verifique");
 >>>>>>> b328e5e (exercicios geek university)
+=======
+                Console.WriteLine("Vc informou um sexo que não está cadastrado, por favor verifique!");
+>>>>>>> 41a5f96 (exercicios geek university)
             }
         }
     }
