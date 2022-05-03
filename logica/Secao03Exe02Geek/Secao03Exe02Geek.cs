@@ -2,7 +2,7 @@
 
 namespace Secao03Exe02Geek
 {
-    class Program
+    class Secao03Exe02Geek
     {
         static void Main(string[] args)
         {
