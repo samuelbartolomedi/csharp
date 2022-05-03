@@ -167,8 +167,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvaLogica1", "ProvaLogica
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao02Exe02Geek", "Secao02Exe02Geek\Secao02Exe02Geek.csproj", "{9C5578EB-B95B-49BF-AB77-209B11A7E866}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao03Exe02Geek", "Secao03Exe02\Secao03Exe02Geek.csproj", "{588B229A-B551-4838-A46A-90F1B0888C4A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao03Exe04Geek", "Secao03Exe03Geek\Secao03Exe04Geek.csproj", "{F954B890-F4DD-401F-83C7-3041553446AD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao03Exe05Geek", "Secao03Exe05Geek\Secao03Exe05Geek.csproj", "{72C56F28-2C30-4CAC-B61E-6439B041DB26}"
@@ -179,21 +177,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao03Exe07Geek", "Secao03
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao06Exe01Geek", "Secao06Exe01Geek\Secao06Exe01Geek.csproj", "{01CC54A8-B216-4CEA-81EA-C4ED289AB167}"
 EndProject
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b328e5e (exercicios geek university)
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao06Exe02Geek", "Secao06Exe02Geek\Secao06Exe02Geek.csproj", "{A55DA3B5-D6E0-4C83-94EB-A41204F28A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao06Exe03Geek", "Secao06Exe03\Secao06Exe03Geek.csproj", "{201B879C-8055-494A-AB34-4BEDB3D3940D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao06Exe03Geek", "Secao06Exe03\Secao06Exe03Geek.csproj", "{201B879C-8055-494A-AB34-4BEDB3D3940D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao06Exe04Geek", "Secao06Exe04Geek\Secao06Exe04Geek.csproj", "{E1C69D07-EAE0-45AD-AA91-B3EC6A54BDD4}"
-<<<<<<< HEAD
-=======
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao06Exe02Geek", "Secao06Exe02Geek\Secao06Exe02Geek.csproj", "{A55DA3B5-D6E0-4C83-94EB-A41204F28A06}"
->>>>>>> 3853fce (exercicios geek university)
-=======
->>>>>>> b328e5e (exercicios geek university)
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao06Exe04Geek", "Secao06Exe04Geek\Secao06Exe04Geek.csproj", "{E1C69D07-EAE0-45AD-AA91-B3EC6A54BDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao03Exe02Geek", "Secao03Exe02Geek\Secao03Exe02Geek.csproj", "{393423DA-EC85-4517-AB7E-ED0C206345DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -529,10 +519,6 @@ Global
 		{9C5578EB-B95B-49BF-AB77-209B11A7E866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C5578EB-B95B-49BF-AB77-209B11A7E866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C5578EB-B95B-49BF-AB77-209B11A7E866}.Release|Any CPU.Build.0 = Release|Any CPU
-		{588B229A-B551-4838-A46A-90F1B0888C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{588B229A-B551-4838-A46A-90F1B0888C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{588B229A-B551-4838-A46A-90F1B0888C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{588B229A-B551-4838-A46A-90F1B0888C4A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F954B890-F4DD-401F-83C7-3041553446AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F954B890-F4DD-401F-83C7-3041553446AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F954B890-F4DD-401F-83C7-3041553446AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -557,10 +543,6 @@ Global
 		{A55DA3B5-D6E0-4C83-94EB-A41204F28A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55DA3B5-D6E0-4C83-94EB-A41204F28A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A55DA3B5-D6E0-4C83-94EB-A41204F28A06}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> b328e5e (exercicios geek university)
 		{201B879C-8055-494A-AB34-4BEDB3D3940D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{201B879C-8055-494A-AB34-4BEDB3D3940D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{201B879C-8055-494A-AB34-4BEDB3D3940D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -569,11 +551,10 @@ Global
 		{E1C69D07-EAE0-45AD-AA91-B3EC6A54BDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1C69D07-EAE0-45AD-AA91-B3EC6A54BDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1C69D07-EAE0-45AD-AA91-B3EC6A54BDD4}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
-=======
->>>>>>> 3853fce (exercicios geek university)
-=======
->>>>>>> b328e5e (exercicios geek university)
+		{393423DA-EC85-4517-AB7E-ED0C206345DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393423DA-EC85-4517-AB7E-ED0C206345DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393423DA-EC85-4517-AB7E-ED0C206345DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393423DA-EC85-4517-AB7E-ED0C206345DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
