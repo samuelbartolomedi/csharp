@@ -26,7 +26,7 @@ namespace Secao06Exe04Geek
 
             else
             {
-                Console.WriteLine("Vc informou um sexo que não está cadastrado, por favor verifique");
+                Console.WriteLine("Vc informou um sexo que não está cadastrado, por favor verifique!");
             }
         }
     }
