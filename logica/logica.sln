@@ -183,7 +183,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao06Exe03Geek", "Secao06
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao06Exe04Geek", "Secao06Exe04Geek\Secao06Exe04Geek.csproj", "{E1C69D07-EAE0-45AD-AA91-B3EC6A54BDD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao03Exe02Geek", "Secao03Exe02Geek\Secao03Exe02Geek.csproj", "{393423DA-EC85-4517-AB7E-ED0C206345DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secao03Exe02Geek", "Secao03Exe02Geek\Secao03Exe02Geek.csproj", "{393423DA-EC85-4517-AB7E-ED0C206345DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao06Exe05Geek", "Secao06Exe05Geek\Secao06Exe05Geek.csproj", "{4697E19A-D627-4DCE-83A0-FBD1DEB479D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao06Exe06Geek", "Secao06Exe06Geek\Secao06Exe06Geek.csproj", "{87606576-44F5-44F3-A67F-7AF8321102B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secao06Exe07Geek", "Secao06Exe07Geek\Secao06Exe07Geek.csproj", "{03423893-8371-43DC-A749-9C0497CF9D84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -555,6 +561,18 @@ Global
 		{393423DA-EC85-4517-AB7E-ED0C206345DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{393423DA-EC85-4517-AB7E-ED0C206345DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393423DA-EC85-4517-AB7E-ED0C206345DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4697E19A-D627-4DCE-83A0-FBD1DEB479D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4697E19A-D627-4DCE-83A0-FBD1DEB479D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4697E19A-D627-4DCE-83A0-FBD1DEB479D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4697E19A-D627-4DCE-83A0-FBD1DEB479D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87606576-44F5-44F3-A67F-7AF8321102B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87606576-44F5-44F3-A67F-7AF8321102B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87606576-44F5-44F3-A67F-7AF8321102B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87606576-44F5-44F3-A67F-7AF8321102B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03423893-8371-43DC-A749-9C0497CF9D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03423893-8371-43DC-A749-9C0497CF9D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03423893-8371-43DC-A749-9C0497CF9D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03423893-8371-43DC-A749-9C0497CF9D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
