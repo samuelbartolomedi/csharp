@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExeIdades", "DevSuperior\ExeIdades.csproj", "{5A9F4A6A-927F-4F6B-B4B3-B7CA67BDF70C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioBar", "DesafioBar\DesafioBar.csproj", "{D896A140-0616-41A7-B456-54161D3F22CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A9F4A6A-927F-4F6B-B4B3-B7CA67BDF70C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9F4A6A-927F-4F6B-B4B3-B7CA67BDF70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9F4A6A-927F-4F6B-B4B3-B7CA67BDF70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9F4A6A-927F-4F6B-B4B3-B7CA67BDF70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D896A140-0616-41A7-B456-54161D3F22CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D896A140-0616-41A7-B456-54161D3F22CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D896A140-0616-41A7-B456-54161D3F22CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D896A140-0616-41A7-B456-54161D3F22CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FFF93FB-9548-45C5-A9E7-816239C4FE0A}
+	EndGlobalSection
+EndGlobal
