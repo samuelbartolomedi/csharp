@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExeIdades", "DevSuperior\ExeIdades.csproj", "{5A9F4A6A-927F-4F6B-B4B3-B7CA67BDF70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioBar", "DesafioBar\DesafioBar.csproj", "{D896A140-0616-41A7-B456-54161D3F22CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioBar", "DesafioBar\DesafioBar.csproj", "{D896A140-0616-41A7-B456-54161D3F22CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioImposto", "DesafioImposto\DesafioImposto.csproj", "{E534A4DA-5C4B-4E35-8E2D-D8761AF0A7E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D896A140-0616-41A7-B456-54161D3F22CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D896A140-0616-41A7-B456-54161D3F22CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D896A140-0616-41A7-B456-54161D3F22CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E534A4DA-5C4B-4E35-8E2D-D8761AF0A7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E534A4DA-5C4B-4E35-8E2D-D8761AF0A7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E534A4DA-5C4B-4E35-8E2D-D8761AF0A7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E534A4DA-5C4B-4E35-8E2D-D8761AF0A7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

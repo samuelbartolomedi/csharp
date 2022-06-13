@@ -33,8 +33,6 @@ namespace DesafioBar
             if (consumo > 30.0)
             {
                 couvert = 0.0;
-                string desc = couvert + "Isento de couvert";
-                
             }
             else
             {
@@ -43,12 +41,22 @@ namespace DesafioBar
 
             consumo = (qtdBeras * 5.0) + (qtdRefri * 3.0) + (qtdEspetinho * 7.0) + ingresso + couvert;
 
-            Console.WriteLine("RELATÓRIO: " +
-                $"\nConsumo = R${consumo.ToString("F2")}" +
-                $"\nCouvert = R${desc}" +
-                $"\nIngresso = R${ingresso.ToString("F2")}" +
-                $"\nValor a pagar = R${consumo.ToString("F2")}");
-
+            if (couvert == 0.0)
+            {
+                Console.WriteLine("RELATÓRIO: " +
+                    $"\nConsumo = R${consumo.ToString("F2")}" +
+                    $"\nIsento de Couvert" +
+                    $"\nIngresso = R${ingresso.ToString("F2")}" +
+                    $"\nValor a pagar = R${consumo.ToString("F2")}");
+            }
+            else
+            {
+                Console.WriteLine("RELATÓRIO: " +
+                                $"\nConsumo = R${consumo.ToString("F2")}" +
+                                $"\nCouvert = R${couvert.ToString("F2")}" +
+                                $"\nIngresso = R${ingresso.ToString("F2")}" +
+                                $"\nValor a pagar = R${consumo.ToString("F2")}");
+            }
         }
     }
 }
