@@ -15,11 +15,10 @@ namespace DesafioBar
             Console.WriteLine("Informe a qtd de espetinho: ");
             int qtdEspetinho = int.Parse(Console.ReadLine());
 
-            double ingresso = 0;
-            double couvert = 0;
-            double consumo = 0;
-
-            consumo = (qtdBeras * 5.0) + (qtdRefri * 3.0) + (qtdEspetinho * 7.0) + ingresso;
+            double ingresso;
+            double consumo;
+            double couvert;
+            double total;
 
             if (sexo == 'F' || sexo == 'f')
             {
@@ -30,6 +29,8 @@ namespace DesafioBar
                 ingresso = 10.0;
             }
 
+            consumo = (qtdBeras * 5.0) + (qtdRefri * 3.0) + (qtdEspetinho * 7.0);
+
             if (consumo > 30.0)
             {
                 couvert = 0.0;
@@ -39,7 +40,7 @@ namespace DesafioBar
                 couvert = 4.0;
             }
 
-            consumo = (qtdBeras * 5.0) + (qtdRefri * 3.0) + (qtdEspetinho * 7.0) + ingresso + couvert;
+            total = consumo + ingresso + couvert;
 
             if (couvert == 0.0)
             {
