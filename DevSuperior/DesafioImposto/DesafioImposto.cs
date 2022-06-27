@@ -1,5 +1,4 @@
-﻿using Microsoft.Recognizers.Text;
-using System;
+﻿using System;
 using System.Globalization;
 
 namespace DesafioImposto
