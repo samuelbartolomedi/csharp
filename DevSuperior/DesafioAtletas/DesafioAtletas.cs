@@ -25,12 +25,9 @@ namespace DesafioAtletas
 
             int i = 0;
 
-            int cont = 1;
-
             for (i = 1; i <= qtdAtletas; i++)
             {
                 Console.WriteLine($"Informe os dados do atleta número {i}");
-                cont++;
                 Console.WriteLine("Nome: ");
                 nome = Console.ReadLine();
                 Console.WriteLine("Sexo: ");

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioBar", "DesafioBar\De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioImposto", "DesafioImposto\DesafioImposto.csproj", "{E534A4DA-5C4B-4E35-8E2D-D8761AF0A7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioAtletas", "DesafioAtletas\DesafioAtletas.csproj", "{64A72116-5881-4931-A968-94BE90B06474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioAtletas", "DesafioAtletas\DesafioAtletas.csproj", "{64A72116-5881-4931-A968-94BE90B06474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioConcurso", "DesafioConcurso\DesafioConcurso.csproj", "{59DE862B-5460-46DF-9147-601CC984CBB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{64A72116-5881-4931-A968-94BE90B06474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64A72116-5881-4931-A968-94BE90B06474}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64A72116-5881-4931-A968-94BE90B06474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59DE862B-5460-46DF-9147-601CC984CBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DE862B-5460-46DF-9147-601CC984CBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DE862B-5460-46DF-9147-601CC984CBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DE862B-5460-46DF-9147-601CC984CBB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
