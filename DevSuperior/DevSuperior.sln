@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32407.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExeIdades", "DevSuperior\ExeIdades.csproj", "{5A9F4A6A-927F-4F6B-B4B3-B7CA67BDF70C}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioImposto", "DesafioIm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioAtletas", "DesafioAtletas\DesafioAtletas.csproj", "{64A72116-5881-4931-A968-94BE90B06474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioConcurso", "DesafioConcurso\DesafioConcurso.csproj", "{59DE862B-5460-46DF-9147-601CC984CBB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioConcurso", "DesafioConcurso\DesafioConcurso.csproj", "{59DE862B-5460-46DF-9147-601CC984CBB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTelefone", "DesafioTelefone\DesafioTelefone.csproj", "{489AAF1D-797E-497F-A720-8851D5BC306C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{59DE862B-5460-46DF-9147-601CC984CBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59DE862B-5460-46DF-9147-601CC984CBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59DE862B-5460-46DF-9147-601CC984CBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489AAF1D-797E-497F-A720-8851D5BC306C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489AAF1D-797E-497F-A720-8851D5BC306C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489AAF1D-797E-497F-A720-8851D5BC306C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489AAF1D-797E-497F-A720-8851D5BC306C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
