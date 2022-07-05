@@ -26,9 +26,9 @@ namespace DesafioConcurso
                 Console.WriteLine("Nome: ");
                 nomes[i] = Console.ReadLine();
                 Console.WriteLine("Nota da 1° etapa: ");
-                nota1[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                nota1[i] = double.Parse(Console.ReadLine(), CI);
                 Console.WriteLine("Nota da 2° etapa: ");
-                nota2[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                nota2[i] = double.Parse(Console.ReadLine(), CI);
 
                 mediaCandidatos[i] = (nota1[i] + nota2[i]) / 2;
                 contador++;
