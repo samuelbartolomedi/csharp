@@ -1,3 +1,8 @@
+:root {
+    bg-color: #808080
+}
+
+
 html {
   font-size: 14px;
 }
@@ -9,6 +14,7 @@ html {
 }
 
 html {
+    background-color: var(bg-color)
   position: relative;
   min-height: 100%;
 }
