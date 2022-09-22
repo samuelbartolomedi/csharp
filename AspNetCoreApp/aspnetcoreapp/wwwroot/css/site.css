@@ -15,8 +15,6 @@ html {
 
 html {
     background-color: var(bg-color)
-  position: relative;
-  min-height: 100%;
 }
 
 body {
