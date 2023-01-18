@@ -28,8 +28,7 @@ namespace ExeAula140
                 {
                     Console.Write("Additional charge: ");
                     double additionalCharge = double.Parse(Console.ReadLine());
-                    list.Add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge)); //if checa se é OutsourcedEmployee, se é adiciona na lista de OutsourcedEmployee
-
+                    list.Add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge)); //if checa se é OutsourcedEmployee, se é adiciona na list<Employee> mas estanciando OutSourcedEmployee
                 }
                 else
                 {
@@ -43,7 +42,6 @@ namespace ExeAula140
             {
                 Console.WriteLine(emp.Name + " - $ " + emp.Payment().ToString("F2"));
             }
-
         }
     }
 }

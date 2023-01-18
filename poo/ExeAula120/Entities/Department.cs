@@ -1,6 +1,6 @@
 ﻿namespace ExeAula128.Entities
 {
-    class Department
+    public class Department
     {
         public string Name { get; set; }
 
