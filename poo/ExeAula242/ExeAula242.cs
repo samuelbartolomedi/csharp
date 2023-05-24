@@ -41,13 +41,9 @@ namespace ExeAula242
                     {
                         Console.WriteLine(email);
                     }
-
-
                     Console.WriteLine($"Sum of salary of people whose name starts whit 'M': {sum.ToString("F2", CultureInfo.InvariantCulture)}");
                 }
-
             }
-
             catch (IOException e)
             {
                 Console.WriteLine(e.Message);
