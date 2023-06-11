@@ -23,9 +23,7 @@ namespace ExeAula220
                         string name = line[0];
                         DateTime logInstant = DateTime.Parse(line[1]);
                         set.Add(new LogRecord { Username = name, LogInstant = logInstant });
-                        
                     }
-
                     Console.WriteLine("Total of users: " + set.Count);
                 }
             }
